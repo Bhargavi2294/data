@@ -1,0 +1,14 @@
+Dataset Field Descriptions
+This dataset includes the following fields:
+
+1. image_id: Unique identifier for each PCB image
+2. image_path: Path to the image file (you'll replace these with your actual image paths)
+3. pcb_type: Type of PCB (single_sided, double_sided, multilayer, flexible, rigid_flex, high_frequency, high_power)
+4. components_density: Density of components on the PCB (low, medium, high, very_high)
+5. layer_count: Number of layers in the PCB
+6. quality_check_required: Level of quality check required (basic, enhanced, comprehensive)
+7. certification_needed: Required certifications (semicolon-separated list)
+8. defect_type: Type of defect present, if any (none if no defect)
+9. intended_application: Intended use of the PCB
+10. material_type: Material used in the PCB (semicolon-separated if multiple)
+11. special_features: Special features of the PCB (semicolon-separated if multiple)
