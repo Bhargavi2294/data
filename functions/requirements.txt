@@ -1,0 +1,7 @@
+streamlit==1.36.0          # For the web application
+Pillow==10.4.0             # For image processing (used by Streamlit, TensorFlow)
+pandas==2.2.2              # For data handling (CSV)
+numpy==1.26.4              # For numerical operations
+scikit-learn==1.5.0        # For label encoding (LabelEncoder, MultiLabelBinarizer)
+tensorflow==2.16.1         # For machine learning model training and inference
+matplotlib==3.9.0          # For plotting training history and augmentation
